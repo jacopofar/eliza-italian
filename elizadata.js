@@ -58,10 +58,12 @@ var elizaSynons = {
 "essere": ["sono", "è", "siamo", "ero"],
 "credenza": ["sensazione", "pensiero", "sento", "voglio","sento","credo"],
 "desiderio": ["voglio", "bisogno"],
+"dimenticare":["dimentico","non ricordo","dimenticato"],
+"ricordare":["ricordo","non ricordo"],
 "tutti": ["chiunque", "nessuno", "ognuno"],
 "famiglia": ["madre", "mamma", "padre", "papà", "sorella", "fratello", "moglie", "bambino", "bambini", "suocera", "suocero","zio","ragazza","ragazzo"],
-"felice": ["contento", "sereno", "soddisfatto"],
-"triste": ["infelice", "depresso", "stufo", "turbato"]
+"felice": ["contento", "sereno", "soddisfatto","felicissimo"],
+"triste": ["infelice", "depresso", "stufo", "turbato","tristissimo"]
 };
 
 var elizaKeywords = [
@@ -557,6 +559,20 @@ var elizaKeywords = [
      "Cosa crede che indichi questa differenza ?",
      "Ci potrebbe essere qualche collegamento, dice ?",
      "Come ?"
+  ]]
+]],
+["ciao", 0, [
+ ["ciao", [
+     "Salve",
+     "Salve di nuovo, che cosa la affligge?",
+     "Ho già detto salve, non abbia reticenze"
+  ]]
+]],
+["salve", 0, [
+ ["salve", [
+     "Salve",
+     "Salve di nuovo, che cosa la affligge?",
+     "Ho già detto salve, non abbia reticenze"
   ]]
 ]]
 
